@@ -26,6 +26,8 @@ AC_SUBST(LEXLIB)
 AC_PROG_EGREP
 AC_CHECK_PROG([PERL], [perl], [perl])
 
+# Test change to validate fork account
+
 # pkg-config is used below to auto-detect optional dependencies
 # (GSSAPI/LDAP/Readline, issue #62) and systemd unit-install
 # directories (issue #60). What happens next if it's absent is
